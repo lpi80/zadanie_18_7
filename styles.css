@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+.app {
+    width: 300px;
+    display: flex;
+    background: white;
+    box-shadow: 1px 1px 1px gray;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid darkgray;
+}
+
+.contactForm input {
+    border: none;
+    padding: 5px, 5px;
+    height: 30px;
+    width: 45%;
+    border-bottom: 1px solid lightgray;
+    margin: 3px;
+}
+
+.contactForm input:nth-last-of-type(1) {
+    width: 100%;
+}
+
+.contactForm button {
+    border-radius: 5px;
+    background: lightblue;
+    color: black;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.contactsList {
+    width: 100%;
+    display: flex;
+    background: white;
+    box-shadow: 1px 1px 1px gray;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-inline-start: 0;
+}
+
+.contactsList .contactItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background: lightblue;
+    margin: 5px;
+}
+
+.contactItem .contactImage {
+    width: 20%;
+    height: 20%;
+    padding: 2px;
+}
+
+.contactItem .contactLabel {
+   width: 30%;
+   text-align: left;
+}
+
+.contactItem .contactLabel:nth-of-type(1) {
+    text-align: right;
+    padding-right: 3px;
+}
+
+.contactItem .contactEmail {
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
