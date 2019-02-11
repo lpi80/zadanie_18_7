@@ -1,4 +1,22 @@
 const Contacts = React.createClass({
+  propTypes: {
+    items: React.PropTypes.array.isRequired,
+  },
+
+  render: function() {
+    let contacts = this.props.items.map(function(contact) {
+        return <Contact item = contact key = contact.id/>
+    });
+
+    return (
+      React.createElement('ul', {className: 'contactsList'}, contacts)
+    );
+  }
+});
+
+
+
+/*const Contacts = React.createClass({
     propTypes: {
       items: React.PropTypes.array.isRequired,
     },
@@ -13,3 +31,5 @@ const Contacts = React.createClass({
       );
     }
   });
+
+  */

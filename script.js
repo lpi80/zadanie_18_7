@@ -1,2 +1,2 @@
-const app = React.createElement(App);
+const app =<App />;
 ReactDOM.render(app, document.getElementById('app'));
