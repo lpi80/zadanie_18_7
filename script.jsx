@@ -1,4 +1,4 @@
-const contacts = [
+/*const contacts = [
     {
         id: 1,
         firstName: 'Jan',
@@ -78,6 +78,6 @@ const App = React.createClass({
         )
     }
 });
-
+*/
 const app = React.createElement(App);
 ReactDOM.render(app, document.getElementById('app'));

@@ -25,7 +25,7 @@ const contactForm = {
   email: ''
 };
 
-const ContactForm = React.createClass({
+ContactForm = React.createClass({
 
   render: function() {
     return (

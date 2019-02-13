@@ -1,4 +1,4 @@
-const Contact = React.createClass({
+Contact = React.createClass({
 
   render: function () {
     return (

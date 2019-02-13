@@ -1,4 +1,4 @@
-const Contacts = React.createClass({
+Contacts = React.createClass({
 
   render: function () {
     let contacts = this.props.items.map(function (contact) {
